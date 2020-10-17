@@ -91,21 +91,21 @@ function draw() {
         {
           score=score+500;
           p=null;
-          if(turn=5)gameState = "end"
+          if(turn===5)gameState = "end"
         }
 
        else if (p.body.position.x>301 && p.body.position.x<580 )
         {
           score=score+1000;
           p=null;
-          if(turn=5)gameState = "end"
+          if(turn===5)gameState = "end"
         }
 
       else  if (p.body.position.x>581 && p.body.position.x<900 )
         {
           score=score+200;
           p=null;
-          if(turn=5)gameState = "end"
+          if(turn===5)gameState = "end"
         }
       }
     }
